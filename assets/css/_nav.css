@@ -1,0 +1,57 @@
+/*start navbar section styles */
+.active{
+    border-bottom: 2px solid orange;
+  }
+  .nav{
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px #efefef;
+    position: sticky;
+    top:0;
+    z-index: 999;
+  }
+  .nav a.brand{
+    color: orange;
+    font-size: 35px;
+  }
+  .nav a{
+    float: right;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    padding: 4px 16px;
+    font-size: 16px;
+    line-height: 51px;
+  }
+  .nav a:hover{
+   border-bottom: 2px solid orange;
+  }
+  .icon {
+    display: none;
+  }
+  @media screen and (max-width:600px){
+    .nav a:not(:first-child){
+      display: none;
+    }
+    .nav a.icon{
+      display: block;
+      float: left;
+    }
+    .nav.responsive{
+      position: relative;
+    }
+    .nav.responsive a.icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+    }
+    .nav.responsive a{
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }
+  
+    
+  
+  /*end navbar section styles */
+  

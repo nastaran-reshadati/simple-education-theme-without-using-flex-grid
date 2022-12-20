@@ -1,0 +1,115 @@
+.footer-section-wrapper {
+  background-color: #041121;
+  min-height: 300px;
+}
+.footer-section-wrapper .copy-right {
+    border-top: 1px solid #282346;
+  padding: 10px;
+  color: #4a4a4a;
+  font-size: 15px;
+}
+
+.footer-section-wrapper .desc {
+  color: #fff;
+  padding: 14px;
+}
+.footer-section-wrapper .desc a i {
+  color: #b4d212;
+  font-size: 38px;
+  transform: rotate(-18deg);
+  padding-left: 15px;
+  vertical-align: -5px;
+}
+.footer-section-wrapper .desc p {
+  font-size: 16px;
+  margin-top: 14px;
+  color: #9c9898;
+}
+.footer-section-wrapper .desc a {
+  color: #fff;
+  padding-right: 10;
+  font-size: 15px;
+}
+.footer-section-wrapper .service,
+.social,.contact-us {
+  color: #888787;
+  padding: 26px 14px;
+}
+.footer-section-wrapper .service h6,
+.social h6,.contact-us h6 {
+  font-size: 16px;
+  border-bottom: 1px solid #302352;
+  padding-bottom: 11px;
+}
+.footer-section-wrapper .service ul {
+  font-size: 16px;
+  padding-top: 6px;
+}
+.footer-section-wrapper .service ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+}
+.footer-section-wrapper .service ul li:hover {
+  color: yellow;
+  padding-right: 15px;
+}
+.footer-section-wrapper .service ul li a:hover {
+  color: yellow;
+}
+.footer-section-wrapper .service ul li::before {
+  content: "\276f";
+  vertical-align: -1px;
+  padding-left: 10px;
+}
+.footer-section-wrapper .service ul li a {
+  color: #888787;
+}
+.footer-section-wrapper .social ul {
+  direction: ltr;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-section-wrapper .social ul a {
+  color: #888787;
+  padding-right: 16px;
+  transition: 0.5s ease;
+}
+.footer-section-wrapper .social ul a:hover {
+  color: #fff;
+}
+
+.footer-section-wrapper form{
+    margin-top: 44px;
+}
+.footer-section-wrapper form input[type=text]{
+    height: 38px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.footer-section-wrapper form input[type=submit]{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    height: 36px;
+    padding: 0 10px;
+    outline: none;
+    cursor: pointer;
+}
+.footer-section-wrapper .contact-us ul{
+    padding-top: 10px;
+}
+.footer-section-wrapper .contact-us ul li{
+  margin-bottom: 12px;
+}
+.footer-section-wrapper .contact-us ul li i{
+    padding-left: 15px;
+    vertical-align: -3px;
+}
+.footer-section-wrapper .contact-us ul li span{
+    font-size: 16px;
+}
